@@ -44,7 +44,7 @@ class Bouncer {
 //		if (animal instanceof Tiger) {
 //			System.out.println("어흥");
 //		} else if (animal instanceof Lion) {
-//			System.out.println("으르렁");
+//			System.out.println("으르렁"); 
 //		}
 	
 	    void barkAnimal(Barkable animal) {  // Animal 대신 Barkable을 사용
@@ -53,7 +53,7 @@ class Bouncer {
 	    }
 	}
 
-	public static class Polymorphism2 {
+	public class Polymorphism2 {
 		public void main(String[] args) {
 			Tiger tiger = new Tiger();
 			Lion lion = new Lion();

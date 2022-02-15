@@ -11,7 +11,8 @@ import java.util.StringTokenizer;
 public class BufferedReadwr_Q {
 	public static void main(String[] args) throws NumberFormatException, IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out)); // 할당된 버퍼에 값 넣어주기
+		BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out)); 
+		// 할당된 버퍼에 값 넣어주기
 
 		String s = br.readLine();
 
