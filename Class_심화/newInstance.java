@@ -5,6 +5,9 @@ package Class_심화;
 //Class 객체를 이용하면 new 연산자를 사용하지 않아도 동적으로 객체를 생성할 수 있다.
 //이 방법은 런타임 시에 클래스 이름이 결정되는 경우에 매우 유용하게 사용된다.
 
+/////////Class.newInstance()는 deprecated 됐으며 이제부터는
+/////////생성자를 통해서 만들어야 한다.
+
 interface Info {
 	public void myInfo();
 }
