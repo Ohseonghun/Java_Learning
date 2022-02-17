@@ -14,13 +14,13 @@ import java.util.Objects;
 //연결된 목록이 트리 맵으로 바뀝니다. 
 //이를 통해 시간복잡도 O(n)에서 O(logn)으로 성능을 올릴 수 있습니다.
 
-class User {
+class hashCode_Q2 {
 
 	private long id;
 	private String name;
 	private String email;
 
-	public User(long id, String name, String email) {
+	public hashCode_Q2(long id, String name, String email) {
 		this.id = id;
 		this.name = name;
 		this.email = email;
@@ -43,6 +43,5 @@ class User {
 			return false;
 		User user = (User) o;
 		return id == user.id && Objects.equals(name, user.name) && Objects.equals(email, user.email);
-	} //User 클래스의 hashCode(), equals() 메소드를 오버라이딩 하였습니다.
+	} // User 클래스의 hashCode(), equals() 메소드를 오버라이딩 하였습니다.
 }
-
